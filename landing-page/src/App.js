@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom'
+import Nav from './components/Nav'
+import Router from './Router'
+import { thisExpression } from '@babel/types';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
+    <BrowserRouter>
+        <Nav />
+        <Router />
+      </BrowserRouter>
     </div>
   );
 }

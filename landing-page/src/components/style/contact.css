@@ -1,0 +1,15 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 20% 50% 10%;
+    grid-template-areas: 
+    margin: 0 auto;
+    height: 1000px;
+    width: 50%;
+    color: black;
+}
+
+/* .body {
+    margin: 0 auto;
+    padding-top: 50px;
+} */
