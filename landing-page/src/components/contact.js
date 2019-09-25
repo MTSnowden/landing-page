@@ -3,12 +3,13 @@ import './style/contact.css'
 
 const Contact = () => (
   <div className="main-container">
-    <p>Contact Us</p>
 
     <div id='form-Container'>
       <form action="/action_page.php">
 
-        <div id="box1">
+        <div id="box1"><p>Contact Us</p></div>
+
+        <div id="box2">
         <input type="text"id="fname"name="firstname"placeholder="First Name"/>
         <input type="text"id="lname" name="lastname" placeholder="Last Name"/>
         </div>

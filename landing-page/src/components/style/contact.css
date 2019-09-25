@@ -2,11 +2,35 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 20% 50% 10%;
-    grid-template-areas: 
+    /* grid-template-areas: one one
+                         two two
+                         three three
+                         four four
+                         five five; */
     margin: 0 auto;
-    height: 1000px;
+    /* height: 800px; */
     width: 50%;
     color: black;
+}
+
+#box1 {
+    grid-area: one
+}
+
+#box2 {
+    grid-area: two
+}
+
+#box3 {
+    grid-area: three
+}
+
+#box4 {
+    grid-area: four
+}
+
+#box5 {
+    grid-area: five
 }
 
 /* .body {
