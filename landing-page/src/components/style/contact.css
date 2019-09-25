@@ -1,14 +1,9 @@
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 10% 20% 50% 10%;
-    /* grid-template-areas: one one
-                         two two
-                         three three
-                         four four
-                         five five; */
     margin: 0 auto;
-    /* height: 800px; */
+    height: 800px;
     width: 50%;
     color: black;
 }

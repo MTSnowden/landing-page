@@ -4,11 +4,13 @@ import './style/snowdenDentistry.css'
 export default class SnowdenDentistry extends Component {
     render() {
         return (
-            <div className="main-container">
+            <div className="landing-container">
 
-                <div className="body">
-                    LANDING PAGE - SNOWDEN DENTISTRY
-                </div>
+            <div></div>
+            <div className="title">
+                SNOWDEN DENTISTRY
+            </div>
+             
                 
             </div>
         )
